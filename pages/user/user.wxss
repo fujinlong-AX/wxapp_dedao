@@ -1,1 +1,34 @@
 /* pages/user/user.wxss */
+.container{
+    position: relative;
+    z-index: 1;
+}
+.picture{
+    position: relative;
+    height: 346rpx;
+}
+.picture image{
+    height: 100%;
+    width: 100%;
+}
+.bird{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 120rpx;
+    width: 120rpx;
+    top: 100rpx;
+    left: 60rpx;
+}
+.bird image{
+    height: 100%;
+    width: 100%;
+}
+.word{
+   font-size: 50rpx;
+    position: absolute;
+    top: 125rpx;
+    left: 220rpx;
+    color: #fff;
+    z-index: 9;
+}
